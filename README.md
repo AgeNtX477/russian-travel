@@ -6,4 +6,4 @@
 
 **GitPages**
 
-* [Ссылка на макет в GitPages](https://agentx477.github.io/russian-travel/)
+* [Ссылка на GitPages](https://agentx477.github.io/russian-travel/)

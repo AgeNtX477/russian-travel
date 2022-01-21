@@ -1,0 +1,36 @@
+.place__container {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto auto;
+  gap: 48px 40px;
+  margin: 0 auto;
+}
+
+
+@media all and (max-width: 1024px) {
+  .place__container {
+    gap: 48px 32px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .place__container {
+    gap: 48px 28px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .place__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .place__container {
+    gap: 32px;
+  }
+}
+

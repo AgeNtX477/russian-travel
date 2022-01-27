@@ -25,7 +25,6 @@
 
 .cover__overlay:hover::before {
    opacity: .8;
-   transition: .3s ease-in-out;
 }
 
 @media all and (max-width: 1024px) {

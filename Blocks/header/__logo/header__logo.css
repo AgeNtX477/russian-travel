@@ -1,13 +1,13 @@
 .header__logo {
- margin: 0;
- width: 176px;
- height: 52px;
- align-self: flex-start;
+    margin: 0;
+    width: 176px;
+    height: 52px;
+    align-self: flex-start;
 }
 
 @media all and (max-width: 425px) {
     .header__logo {
         width: 142px;
         height: 42px;
-       }
+    }
 }

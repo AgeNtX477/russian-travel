@@ -1,15 +1,15 @@
 .footer__link-container {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  gap: 0 18px;
-  margin: 0;
-  padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 0 18px;
+    margin: 0;
+    padding-left: 0;
 }
 
 @media all and (max-width: 760px) {
-.footer__link-container {
-  flex-direction: column;
-  gap: 32px;
-  }
- }
+    .footer__link-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

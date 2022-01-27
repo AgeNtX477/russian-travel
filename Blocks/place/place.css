@@ -1,29 +1,28 @@
 .place {
-  max-width: 984px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  gap: 80px;
-  padding-bottom: 92px;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 80px;
+    padding-bottom: 92px;
 }
 
 @media all and (max-width: 1080px) {
-  .place {
-  padding: 0 48px 92px 48px;
-  }
+    .place {
+        padding: 0 48px 92px 48px;
+    }
 }
 
 @media all and (max-width: 768px) {
-  .place {
-  padding: 0 24px 90px 24px;
-  gap: 73px;
-  }
+    .place {
+        padding: 0 24px 90px 24px;
+        gap: 73px;
+    }
 }
 
 @media all and (max-width: 450px) {
-  .place {
-  padding: 0 16px 66px 16px;
-  gap: 64px;
-  }
+    .place {
+        padding: 0 16px 66px 16px;
+        gap: 64px;
+    }
 }
-

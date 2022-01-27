@@ -1,9 +1,9 @@
 .place__web {
-  align-self: flex-end;
+    align-self: flex-end;
 }
 
 @media all and (max-width: 750px) {
-  .place__web {
-    align-self: auto;
-  }
+    .place__web {
+        align-self: auto;
+    }
 }

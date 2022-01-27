@@ -9,13 +9,13 @@
 }
 
 @media all and (max-width: 1020px) {
-  .lead__caption {
-   padding-left: 24px;
-  }
+    .lead__caption {
+        padding-left: 24px;
+    }
 }
 
 @media all and (max-width: 425px) {
     .lead__caption {
-     padding-left: 16px;
+        padding-left: 16px;
     }
-  }
+}

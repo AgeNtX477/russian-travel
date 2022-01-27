@@ -7,9 +7,21 @@
     padding-bottom: 26px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 946px) {
     .place__paragraph {
         font-size: 16px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .place__paragraph {
+        padding: 0 24px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .place__paragraph {
+        padding: 0 16px;
     }
 }
 

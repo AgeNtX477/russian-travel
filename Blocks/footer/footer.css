@@ -26,3 +26,9 @@
         padding: 64px auto 24px 16px;
     }
 }
+
+@media all and (max-width: 425px) {
+    .footer {
+        padding-left: 16px;
+    }
+}

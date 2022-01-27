@@ -2,8 +2,16 @@
     align-self: flex-end;
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 767px) {
     .place__web {
         align-self: auto;
+        padding-left: 24px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .place__web {
+        align-self: auto;
+        padding-left: 16px;
     }
 }

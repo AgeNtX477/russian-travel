@@ -17,3 +17,9 @@
         line-height: 1.1;
     }
 }
+
+@media all and (max-width: 425px) {
+    .cover__subtitle {
+        padding-top: 16px;
+    }
+}

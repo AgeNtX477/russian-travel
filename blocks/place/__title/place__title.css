@@ -6,20 +6,30 @@
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+
+/** мне показалось правильным решением немного уменьшить шрифт на промежуточном разрешении, так контент полностью помещается в контейнер */
+
+@media all and (max-width: 1023px) {
+    .place__title {
+        font-size: 65px;
+        line-height: 1.1;
+    }
+}
+
+@media all and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 1.1;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
     .place__title {
         padding-left: 24px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media all and (max-width: 425px) {
     .place__title {
         font-size: 32px;
         padding-left: 16px;

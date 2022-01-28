@@ -23,12 +23,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 48px 0;
-        padding: 64px auto 24px 16px;
-    }
-}
-
-@media all and (max-width: 425px) {
-    .footer {
-        padding-left: 16px;
+        padding: 64px 0 24px 16px;
+        /* согласно FIGMA верхний отступ равен 64px на 320px между cover и footer*/
     }
 }

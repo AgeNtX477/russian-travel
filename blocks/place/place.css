@@ -35,6 +35,6 @@
 @media all and (max-width: 450px) {
     .place {
         padding-bottom: 66px;
-        gap: 64px;
+        gap: 50px;
     }
 }
